@@ -25,12 +25,11 @@ import java.util.Map;
  * Redis的服务加载器
  */
 public class RedisServiceLoaderImpl extends ServiceLoader<IRedis> {
+
     private final Servers servers;
+
     private final ServiceGroup serviceGroup;
 
-    /**
-     * 配置
-     */
     private final RedisConfig redisConfig;
 
     public RedisServiceLoaderImpl(@Nonnull RedisConfig redisConfig, @Nonnull Servers servers, @Nonnull ServiceGroup serviceGroup) {
