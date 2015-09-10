@@ -2,11 +2,6 @@ package net.common.data.redis.constant;
 
 /**
  * Redis服务的一些常量配置
- * <p/>
- * Created by IntelliJ IDEA.
- * User: libinxy
- * Date: 11-10-27
- * Time: 上午12:53
  */
 public final class Constants {
 
